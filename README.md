@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Tiktok clone UI by 
+Tiktok clone UI by me.
 
 ## Available Scripts
 
