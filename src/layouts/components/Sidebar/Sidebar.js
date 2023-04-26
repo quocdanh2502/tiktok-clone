@@ -10,6 +10,8 @@ import {
     FollowingIconActive,
     LiveIcon,
     LiveIconActive,
+    ExploreIcon,
+    ExploreActiveIcon,
 } from '../../../components/Icons';
 import Suggested from '../../../components/SuggestedAccounts';
 
@@ -30,6 +32,12 @@ function Sidebar() {
                     to={RoutesConfig.following}
                     icon={<FollowingIcon />}
                     activeIcon={<FollowingIconActive />}
+                ></MenuItem>
+                <MenuItem
+                    title="Explore"
+                    to={RoutesConfig.explore}
+                    icon={<ExploreIcon />}
+                    activeIcon={<ExploreActiveIcon />}
                 ></MenuItem>
                 <MenuItem
                     title="LIVE"
