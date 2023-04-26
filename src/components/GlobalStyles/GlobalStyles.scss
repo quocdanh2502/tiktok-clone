@@ -1,0 +1,115 @@
+@import 'normalize.css';
+
+:root {
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+    --sidebar-width: 356px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'ProximaNova';
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+
+    .tippy-box {
+        border-radius: 8px;
+        background-color: rgba(84, 84, 84, 0.92);
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .tippy-arrow {
+        color: rgba(84, 84, 84, 0.92);
+    }
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'ProximaNova';
+}
+
+a[href] {
+    text-decoration: none;
+    color: black;
+    font-family: 'ProximaNova';
+    text-align: center;
+}
+
+//Fonts
+@font-face {
+    font-family: 'SofiaPro';
+    src: url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/sofiapro-bold.woff2)
+            format('woff2'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/sofiapro-bold.woff)
+            format('woff'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/sofiapro-bold.otf)
+            format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff2)
+            format('woff2'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff)
+            format('woff'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.otf)
+            format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff2)
+            format('woff2'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff)
+            format('woff'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.otf)
+            format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.woff2)
+            format('woff2'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.woff)
+            format('woff'),
+        url(//lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.otf)
+            format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,75 @@
+.wrapper {
+    width: 320px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgb(255, 255, 255) !important;
+
+    border-radius: 8px;
+}
+
+#popper-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+#btn-follow {
+    padding: 6px 16px;
+}
+
+.check {
+    cursor: pointer;
+}
+
+.user-name {
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(22, 24, 35);
+}
+
+#check-icon {
+    color: #20d5ec;
+    margin-left: 4px;
+}
+
+.name {
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(22, 24, 35);
+    cursor: pointer;
+}
+
+.follow {
+    margin-top: 8px;
+    display: flex;
+}
+
+.value {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 20px;
+    margin-right: 6px;
+}
+
+.text {
+    font-size: 1.7rem;
+    line-height: 20px;
+    color: rgba(22, 24, 35, 0.75);
+    margin-right: 12px;
+}
